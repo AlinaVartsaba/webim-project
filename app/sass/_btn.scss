@@ -1,0 +1,51 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  &__main {
+    max-width: 308px;
+    border-radius: 35px;
+    height: 46px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  &_mint {
+    border: 1px solid $mint;
+    background-color: $mint;
+    margin-bottom: 16px;
+  }
+
+  &_transparent {
+    border: 2px solid $blue;
+    background-color: $lightgreen;
+    color: $blue;
+
+  }
+  &_blue {
+    border: 1px solid #3b4269;
+    background-color: #3b4269;
+  }
+}
+
+
+@media(min-width: 768px) {
+  .btn {
+    display: flex;
+    flex-direction: row;
+
+    &__main {
+      min-width: 258px;
+      height: 48px;
+      font-size: 14px;
+      margin-right: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+

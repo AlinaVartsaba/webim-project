@@ -1,0 +1,49 @@
+@media(min-width: 1200px) {
+  .social {
+    color: #adb0c2;
+    display: inline-block;
+
+    &__vk {
+      width: 25px;
+      height: 15px;
+      padding-right: 21px;
+    }
+
+    &__fb {
+      width: 11px;
+      height: 22px;
+      padding-right: 21px;
+    }
+
+    &__tw {
+      width: 22px;
+      height: 20px;
+      padding-right: 16px;
+    }
+
+    &__sk {
+      width: 20px;
+      height: 21px;
+    }
+
+    &__note-Wrapper {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: $mint;
+      border-radius: 50%;
+      right: -18px;
+      bottom: -25px;
+
+    }
+
+    &__note-Wrapper_footer-note {
+      width: 24px;
+      height: 22px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+}

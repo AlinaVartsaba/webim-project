@@ -1,0 +1,31 @@
+.contact {
+  display: none;
+}
+
+@media(min-width: 1200px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+    position: relative;
+
+    &__mail {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 16px;
+      padding-bottom: 8px;
+    }
+
+    &__mail_sales {
+      padding-bottom: 23px;
+    }
+
+    &__work-time {
+      color: #adb0c2;
+      font-size: 16px;
+      padding-bottom: 25px;
+    }
+
+  }
+
+}

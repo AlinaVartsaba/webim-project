@@ -1,0 +1,81 @@
+.footer-container__div {
+  color: #FFFFFF;
+  padding-left: 42px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  max-width: 128px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.footer-container__logo,
+.call {
+  display: none;
+}
+
+
+@media(min-width: 1200px) {
+  .foot {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-container__logo {
+    width: 148px;
+    height: 35px;
+    display: block;
+  }
+
+  .footer-container__div {
+    color: #adb0c2;
+    margin-left: -36px;
+    font-size: 14px;
+    max-width: 148px;
+    padding-right: 190px;
+  }
+
+  .call {
+    display: flex;
+    flex-direction: column;
+
+    &__phn {
+      display: flex;
+    }
+      &__phone {
+        width: 30px;
+        height: 33px;
+        padding-right: 12px;
+      }
+
+      &__tel {
+        font-size: 26px;
+        color: #FFFFFF;
+        padding-bottom: 18px;
+      }
+
+
+    &__tel-m {
+      font-size: 22px;
+      color: #FFFFFF;
+      padding-bottom: 10px;
+
+    }
+
+    &__mcw {
+      color: #adb0c2;
+      font-size: 16px;
+      padding-bottom: 30px;
+    }
+
+    &__tel-s {
+      font-size: 22px;
+      color: #FFFFFF;
+      padding-bottom: 10px;
+    }
+
+    &__spb {
+      color: #adb0c2;
+
+      font-size: 16px;
+    }
+  }
+}

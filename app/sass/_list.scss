@@ -1,0 +1,110 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  .item {
+    display: flex;
+
+    &__icon-Wrapper {
+      position: relative;
+      min-width: 50px;
+      height: 50px;
+      background-color: $mint;
+      border-radius: 50%;
+    }
+    &__icon {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    &__icon_create {
+      width: 25px;
+      height: 18px;
+    }
+    &__icon_activation {
+      width: 20px;
+      height: 16px;
+    }
+    &__icon_tools {
+      width: 24px;
+      height: 24px;
+    }
+    &__icon_set {
+      width: 27px;
+      height: 20px;
+    }
+    &__icon_operator {
+      width: 23px;
+      height: 25px;
+    }
+    &__icon_test {
+      width: 23px;
+      height: 21px;
+    }
+
+    &__info {
+      color: $blue;
+      margin-left: 22px;
+      padding-top: 13px;
+      padding-bottom: 40px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 12px;
+      max-width: 230px;
+      &__step {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+@media(min-width: 768px){
+  .list {
+    .item {
+      //display: flex;
+      padding-bottom: 25px;
+
+      &__icon-Wrapper {
+        min-width: 76px;
+        height: 76px;
+      }
+
+      &__icon_create {
+        width: 35px;
+        height: 25px;
+      }
+      &__icon_activation {
+        width: 30px;
+        height: 28px;
+      }
+      &__icon_tools {
+        width: 36px;
+        height: 36px;
+      }
+      &__icon_set {
+        width: 45px;
+        height: 25px;
+      }
+      &__icon_operator {
+        width: 34px;
+        height: 39px;
+      }
+      &__icon_test {
+        width: 33px;
+        height: 30px;
+      }
+
+      &__info {
+        font-size: 18px;
+        max-width: 668px;
+        padding-top: 20px;
+        padding-left: 36px;
+      }
+      &__step {
+        font-size: 24px;
+        padding-right: 10px;
+      }
+    }
+  }
+}

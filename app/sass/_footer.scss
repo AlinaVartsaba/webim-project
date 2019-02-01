@@ -1,0 +1,14 @@
+.footer {
+  background-color: $blue;
+  margin: 0 auto;
+}
+
+@media(min-width: 1200px) {
+    .footer__wrapper {
+      padding: 55px 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+}
+
